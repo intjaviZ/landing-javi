@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javier Zárate | desarrollador</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav" aria-label="Principal">
+            <div class="nav__logo">
+                <p>JAZ</p>
+            </div>
+            <ul class="nav__menu" id="menu">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#proyectos">Experiencia</a></li>
+                <li><a href="#presentaciones">Presentaciones</a></li>
+            </ul>
+            <button class="nav__toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu"></button>
+        </nav>
+    </header>
+    <main>
+        <section class="hero" id="inicio">
+            <div class="hero__photo"><img width="300" src="img/yo.jpg" alt="Imagen del desarrollador"></div>
+            <div class="hero__titles">
+                <h2>Javier Zárate</h2>
+                <h1>Desarrollador multiplataforma</h1>
+            </div>
+            <p class="hero__text">
+                Soy Ingeniero en <span>Tecnolgías de la información</span>. Me apasiona el desarrollo de APIs usando el
+                principio Rest ful, aplicando arquitecturas de software, y centrandome en la planificación de proyectos.<br>
+                Tengo experiencia desarrollando <span>aplicaciones web</span>, APIs,
+                <span>Apps moviles</span> y en bases de datos relacionales.
+            </p>
+            <div class="hero__links">
+                <a class="btn btn--ghost" href="https://github.com/intjaviZ">
+                    <img src="" alt="">
+                    <span>Github</span>
+                </a>
+                <a class="btn btn--solid" href="#proyectos">
+                    <img src="" alt="">
+                    <span>Proyectos</span>
+                </a>
+            </div>
+        </section>
+        <section class="about" id="sobre-mi">
+            <hr>
+            <div class="about__block">
+                <h2 class="section-title">Sobre mí</h2>
+                <p class="about__text">
+                    Soy estudiante de Tecnologías de la Información y desarrollador. Lo que más me interesa del oficio
+                    no es el lenguaje de turno, sino la estructura: dónde vive cada regla de negocio, qué le toca hacer
+                    a cada capa y cómo evitar que un proyecto chico se vuelva imposible de tocar a los seis meses.<br>
+                    En el servidor trabajo con Java, Python y PHP, casi siempre exponiendo APIs REST sobre MySQL o
+                    PostgreSQL. Del lado del cliente parto de HTML, CSS y JavaScript, y cuando la interfaz lo pide, la
+                    llevo a React. Para móvil uso Flutter, y en el entorno académico también desarrollo nativo en
+                    Kotlin.<br>
+                    Me gusta que un proyecto se explique solo al abrir el repositorio: carpetas que dicen de qué trata
+                    el sistema, controladores delgados y las consultas donde deben estar.
+                </p>
+            </div>
+            <hr>
+            <div class="tools">
+                <h2 class="section-title">Mi equipo de herramientas</h2>
+                <div class="carousel">
+                    <button class="carousel__btn carousel__btn--prev" aria-label="Anterior"></button>
+                    <div class="carousel__viewport">
+                        <div class="carousel__track">
+                            <div class="tool"><img src="./img/flutter.png" alt="tecnología"><p>Flutter</p></div>
+                            <div class="tool"><img src="./img/dart.png" alt="tecnología"><p>Dart</p></div>
+                            <div class="tool"><img src="./img/c++.png" alt="tecnología"><p>C++</p></div>
+                            <div class="tool"><img src="./img/codeigniter.png" alt="tecnología"><p>CodeIgniter</p></div>
+                            <div class="tool"><img src="./img/c-sharp.png" alt="tecnología"><p>C#</p></div>
+                            <div class="tool"><img src="./img/django.png" alt="tecnología"><p>Django</p></div>
+                            <div class="tool"><img src="./img/figma.png" alt="tecnología"><p>Figma</p></div>
+                            <div class="tool"><img src="./img/flutter.png" alt="tecnología"><p>Flutter</p></div>
+                            <div class="tool"><img src="./img/git.png" alt="tecnología"><p>Git</p></div>
+                            <div class="tool"><img src="./img/html.png" alt="tecnología"><p>HTML</p></div>
+                            <div class="tool"><img src="./img/java.png" alt="tecnología"><p>Java</p></div>
+                            <div class="tool"><img src="./img/javalin.png" alt="tecnología"><p>Javalin</p></div>
+                            <div class="tool"><img src="./img/js.png" alt="tecnología"><p>JavaScript</p></div>
+                            <div class="tool"><img src="./img/mysql.png" alt="tecnología"><p>MySQL</p></div>
+                            <div class="tool"><img src="./img/php.png" alt="tecnología"><p>PHP</p></div>
+                            <div class="tool"><img src="./img/postgre.png" alt="tecnología"><p>PostgreSQL</p></div>
+                            <div class="tool"><img src="./img/python.png" alt="tecnología"><p>Python</p></div>
+                            <div class="tool"><img src="./img/react.png" alt="tecnología"><p>React</p></div>
+                        </div>
+                    </div>
+                    <button class="carousel__btn carousel__btn--next" aria-label="Siguiente"></button>
+                </div>
+            </div>
+        </section>
+        <section class="experience" id="proyectos">
+            <hr>
+            <h2 class="section-title">Experiencia</h2>
+            <div class="cards">
+                <article class="card">
+                    <div class="card__head">
+                        <h3>
+                            <a href="https://github.com/intjaviZ/test_vocacional.git">
+                                Test vocacional
+                            </a>
+                        </h3>
+                        <span>2025</span>
+                    </div>
+                    <p>
+                        Plataforma de apoyo estudiantil para alumnos de prepa y ofrecer su área de más interés, se hizo
+                        una versión mobile y Web conectadas a una API en PHP con MySQL.
+                    </p>
+                    <ul class="tags">
+                        <li>React</li>
+                        <li>Flutter</li>
+                        <li>CodeIgniter</li>
+                        <li>MySQL</li>
+                    </ul>
+                </article>
+                <article class="card">
+                    <div class="card__head">
+                        <h3>
+                            <a href="https://github.com/intjaviZ/prisma_front.git">
+                                PRISMA
+                            </a>
+                        </h3>
+                        <span>2025</span>
+                    </div>
+                    <p>
+                        Plataforma de apoyo emocional con herramientas de IA y VR para alumnos de prepa y monitoreo
+                        estudiantil por parte de psicologos con test de seguimiento e implementación de gráficos
+                        personales y grupales basados en los datos de los estudiantes.
+                    </p>
+                    <ul class="tags">
+                        <li>React</li>
+                        <li>Django</li>
+                        <li>PostgreSQL</li>
+                    </ul>
+                </article>
+                <article class="card">
+                    <div class="card__head">
+                        <h3>
+                            <a href="https://github.com/intjaviZ/crescere-frontend.git">
+                                Crescere
+                            </a>
+                        </h3>
+                        <span>2026</span>
+                    </div>
+                    <p>
+                        Desarrollamos una pagina web interactiva con un sistema de preguntas y respuestas que ayudaba a
+                        los estudiantes a mejorar su rendimiento escolar. Enfocado a regularizar aprendizaje a nivel
+                        secundaria con el uso de métricas y herramientas que impulsaran a los estudiantes a aprender.
+                    </p>
+                    <ul class="tags">
+                        <li>React</li>
+                        <li>Javalin</li>
+                        <li>MySQL</li>
+                        <li>AWS</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+        <section class="talks" id="presentaciones">
+            <hr>
+            <h2 class="section-title">Presentaciones</h2>
+            <div class="talks__list">
+                <article class="talk">
+                    <img width="300" src="./img/CNPYPE2025.jpg"
+                        alt="Concurso nacional de prototipos y proyectos de emprendimiento de la DGETI 2025">
+                    <div>
+                        <div>
+                            <span>Concurso de prototipos</span>
+                            <h3>Concurso nacional de prototipos y proyectos de emprendimiento de la DGETI 2025</h3>
+                        </div>
+                        <p>
+                            Participación con el proyecto PRISMA en la fase nacional en Pachuca del consurso en 2025
+                            quedando dentro de los mejores 30 proyectos de la categoría de material didactico.
+                        </p>
+                    </div>
+                </article>
+                <article class="talk">
+                    <img width="300" src="./img/expoCiencias2025.jpeg" alt="">
+                    <div>
+                        <div>
+                            <span>Expocision de proyectos</span>
+                            <h3>Expociencias 2025</h3>
+                        </div>
+                        <p>
+                            Participación en la etapa estatal dentro de la categoría apoyo social consiguiendo el primer
+                            lugar estatal y obteniendo el pase nacional.
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="footer__name">Universidad politécnica de Chiapas</>
+        <ul class="footer__links">
+            <li><a href="https://github.com/intjaviZ">
+                    Github
+                </a></li>
+            <li><a href="https://www.linkedin.com/in/javier-antonio-zárate-gómez-a20145315">
+                    LinkedIn
+                </a></li>
+            <li>
+                <a href="mailto:elbuenjavizarate@gmail.com">elbuenjavizarate@gmail.com</a>
+            </li>
+        </ul>
+        <span class="footer__copy"></span>
+    </footer>
+</body>
+
+</html>
